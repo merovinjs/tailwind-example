@@ -9,6 +9,9 @@ export default {
       colors: {
         "regal-blue": "#243c5a",
       },
+      spacing: {
+        128: "32rem",
+      },
     },
   },
   plugins: [],

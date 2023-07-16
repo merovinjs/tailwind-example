@@ -4,8 +4,10 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <>
-      <Headers />
-      <Hero />
+      <div className="w-full h-screen bg-black">
+        <Headers />
+        <Hero />
+      </div>
     </>
   );
 }

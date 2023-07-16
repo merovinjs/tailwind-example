@@ -4,17 +4,19 @@ const Hero = () => {
   //h-128 tailwing configde oluşturuldu
   return (
     <>
-      <section className="h-96 lg:h-128 group relative">
-        <img src="/braking.jpg" className="h-full w-full object-cover" />
-        <div className="absolute bottom-0 w-full bg-gradient-to-b from-transparent to-white">
-          <div className="container pl-10 lg:pl-5">
-            <h3 className="text-orange-500 tracking-wider group-hover:mb-1 duration-500">
+      <section className="relative bg-red-500 group h-[200px]">
+        <img
+          src="/braking.jpg"
+          alt="main-image"
+          className=" w-full h-full object-cover lg:object-center "
+        />
+        <div className="absolute bottom-0 w-full h-2/6 bg-gradient-to-b from-transparent to-red-950">
+          <div className="w-3/4 justify-center px-3">
+            <h3 className=" text-red-600 tracking-wider">
               Action,Drama,Thriller
             </h3>
-            <h1 className="text-4xl lg:text-6xl text-orange-500 group-hover:mb-1 duration-500">
-              Braking Bad
-            </h1>
-            <p className=" text-orange-500 group-hover:mb-2 duration-500 text-sm lg:text-base w-3/4 lg:w-2/3">
+            <h1 className=" text-orange-500">Braking Bad</h1>
+            <p className="hidden lg:flex text-orange-500 group-hover:mb-2 duration-500 text-sm  lg:text-base w-3/4 lg:w-2/3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
               commodi fugiat at facere repellendus recusandae suscipit
               voluptatibus fuga aut? Tenetur dolores minus quos praesentium
@@ -53,7 +55,6 @@ const Hero = () => {
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-indigo-500"></div>
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-indigo-500"></div>
         </div>
-        <div className="bg-indigo-500 "></div>
       </section>
     </>
   );

@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 .hoverLink {
-  @apply text-white hover:text-orange-400 transition duration-500;
+  @apply text-white flex-nowrap hover:text-orange-400 transition duration-500;
 }
